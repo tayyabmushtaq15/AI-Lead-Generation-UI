@@ -1,0 +1,146 @@
+.lead-card {
+  border: 1px solid #e2e8f0;
+  border-radius: 8px;
+  padding: 1.5rem;
+  background: white;
+  transition: all 0.15s ease;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+}
+
+.lead-card:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  transform: translateY(-2px);
+}
+
+.lead-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 1rem;
+}
+
+.lead-info h3 {
+  margin: 0 0 0.5rem 0;
+  color: #1e293b;
+  font-size: 1.125rem;
+  font-weight: 600;
+  letter-spacing: -0.025em;
+}
+
+.lead-info .company {
+  margin: 0 0 0.25rem 0;
+  color: #3b82f6;
+  font-weight: 500;
+  font-size: 0.875rem;
+}
+
+.lead-info .email {
+  margin: 0;
+  color: #64748b;
+  font-size: 0.8125rem;
+}
+
+.status-badge {
+  color: white;
+  padding: 0.375rem 0.75rem;
+  border-radius: 9999px;
+  font-size: 0.75rem;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  gap: 0.375rem;
+  white-space: nowrap;
+  letter-spacing: 0.025em;
+}
+
+.spinner-small {
+  width: 10px;
+  height: 10px;
+  border: 1.5px solid rgba(255, 255, 255, 0.3);
+  border-top: 1.5px solid white;
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+}
+
+.lead-description,
+.lead-summary,
+.lead-outreach {
+  margin-bottom: 1.5rem;
+}
+
+.lead-description h4,
+.lead-summary h4,
+.lead-outreach h4 {
+  margin: 0 0 0.5rem 0;
+  color: #374151;
+  font-size: 0.875rem;
+  font-weight: 600;
+  letter-spacing: -0.025em;
+}
+
+.lead-description p,
+.lead-summary p {
+  margin: 0;
+  color: #4b5563;
+  line-height: 1.625;
+  font-size: 0.875rem;
+}
+
+.outreach-message {
+  background: #f8fafc;
+  border: 1px solid #e2e8f0;
+  border-radius: 6px;
+  padding: 1rem;
+}
+
+.outreach-message pre {
+  margin: 0;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  font-family: inherit;
+  color: #374151;
+  line-height: 1.625;
+  font-size: 0.8125rem;
+}
+
+.processing-message {
+  background: #fef3c7;
+  border: 1px solid #fbbf24;
+  border-radius: 6px;
+  padding: 0.75rem;
+  margin-bottom: 1.5rem;
+}
+
+.processing-message p {
+  margin: 0;
+  color: #92400e;
+  font-weight: 500;
+  font-size: 0.8125rem;
+}
+
+.error-message {
+  background: #fef2f2;
+  border: 1px solid #fca5a5;
+  border-radius: 6px;
+  padding: 0.75rem;
+  margin-bottom: 1.5rem;
+}
+
+.error-message p {
+  margin: 0;
+  color: #dc2626;
+  font-weight: 500;
+  font-size: 0.8125rem;
+}
+
+.lead-footer {
+  border-top: 1px solid #f1f5f9;
+  padding-top: 1rem;
+  margin-top: 1rem;
+}
+
+.lead-footer small {
+  color: #94a3b8;
+  font-size: 0.75rem;
+  font-weight: 400;
+}
