@@ -4,7 +4,12 @@ import LeadForm from './components/LeadForm';
 import LeadDashboard from './components/LeadDashboard';
 import './App.css';
 
-const socket = io('http://localhost:5000');
+// Use production Railway backend URL when deployed, localhost for development
+const socketUrl = process.env.NODE_ENV === 'production' 
+  ? 'ai-lead-generation-api-server-production.up.railway.app' 
+  : 'http://localhost:5000';
+
+const socket = io(socketUrl);
 
 function App() {
   const [leads, setLeads] = useState([]);
